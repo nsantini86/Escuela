@@ -1,9 +1,8 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background: url(recursos/Escudo\ de\ BAM\ Mar\ del\ Plata.png) no-repeat center fixed;
-    background-size: cover;
-    color: #fff;
+    background: url(recursos/EscEscuelaBAMMDP.png) no-repeat center fixed;
+    background-size: 20%;
     padding: 2em;
 }
 body::before{
@@ -26,22 +25,24 @@ body::before{
 h1{
     margin: 0.3em;
     font-size: 3em;
+    color: #C91B03;
 }
 
 h2{
     margin-bottom: 0.5em;
+    color: #C91B03;
 }
 
 .title{
     text-align: center;
 }
 .title p{
-    color: #0d71fc;
+    color: white;
     font-size: 1.3em;
     letter-spacing: 2px;
 }
 
-timeline {
+.timeline {
     margin: 5em auto;
     max-width: 34.15em;
 }
@@ -63,6 +64,22 @@ timeline {
     line-height: 27px;
     color: #ccc;
 }
+/*----------------------   SUME ESTO NGS 16/12   ------------------------ */
+.checkpoint .imagen {
+    /* Estilos para el contenedor de la imagen */
+    border: none;
+    width: 300px; /* Ancho deseado para la caja */
+    height: 200px; /* Altura deseada para la caja */
+    overflow: hidden; /* Oculta cualquier contenido adicional que exceda las dimensiones de la caja */
+}
+
+.checkpoint .imagen img {
+    /* Estilos para la imagen dentro de la caja */
+    width: 100%; /* Ajusta la imagen al ancho de la caja */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente */
+    display: block; /* Asegura que la imagen sea un bloque */
+}
+/*-----------------------------------------------------------------------------*/
 
 .checkpoint:nth-child(odd){
     border-left: 3px solid #888;
