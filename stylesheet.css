@@ -25,7 +25,20 @@ body::before{
 h1{
     margin: 0.3em;
     font-size: 3em;
-    color: #C91B03;
+/*----------------------   MODIFIQUÉ Y AGREGUÉ ESTO LDM 02/01/24    ------------------------ */
+    color: rgba(183, 6, 6, 0.868); /* Color más oscuro*/
+    text-shadow: 0px 2px 4px black; /* Agrega efecto de sombreado al texto desplaz x, desplaz y, difumado, color*/
+/*-----------------------------------------------------------------------------*/ 
+}
+/*----------------------   SUME ESTO LDM 02/01/24   ------------------------ */
+#suHistoria{
+    color: rgb(235, 190, 77);
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    margin-bottom: 50px;
+/*-----------------------------------------------------------------------------*/    
 }
 
 h2{
