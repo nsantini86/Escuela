@@ -71,6 +71,7 @@ h2{
     border: 2px solid #888;
     border-radius: 1em;
     padding: 1.5em;
+    box-shadow: 1px 1px 5px black;
 }
 
 .checkpoint p{
@@ -91,6 +92,10 @@ h2{
     width: 100%; /* Ajusta la imagen al ancho de la caja */
     height: auto; /* Permite que la altura se ajuste proporcionalmente */
     display: block; /* Asegura que la imagen sea un bloque */
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1em;
 }
 /*-----------------------------------------------------------------------------*/
 
